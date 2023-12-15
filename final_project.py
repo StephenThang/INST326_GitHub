@@ -8,6 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 from flask import Flask, request, jsonify
 
+
 # Step 1: Data Gathering
 # Read the hospital admission dataset from a file (e.g., CSV)
 data = pd.read_csv("hospital_admission_data.csv")
